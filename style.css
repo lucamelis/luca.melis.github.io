@@ -33,7 +33,7 @@ div#header h1 {
 div#side {
     float: left;
     padding: 0px 1% 0px 0px;
-    width: 24%;
+    width: 25%;
     text-align: left;
 }
 
@@ -51,8 +51,13 @@ div#footer {
     padding: 30px;
 }
 
+h1,h2,h3,h4 { font-weight: bold; 
+
+}
+
 h1 {
-    font-family: 'Playfair Display', serif;   
+    font-family: 'Playfair Display', serif;
+    
     color: #021B3C;
 }
 
@@ -71,25 +76,25 @@ h4 {
     color: #021B3C;
 }
 
-a:link {
+A a {
     font-family: 'Playfair Display', serif;   
-    color: #021B3C;
+    color: #0061c8;
     text-decoration: none;
-    border-bottom: solid 1px #021B3C;
+    border-bottom: solid 1px #0061c8;
 }
 
 /* visited link */
-a:visited {
+A a:visited {
     font-family: 'Playfair Display', serif;   
-    color: #021B3C;
+    color: #0061c8;
     text-decoration: none;
-    border-bottom: solid 1px #021B3C;
+    border-bottom: solid 1px #0061c8;
 }
 
 /* mouse over link */
-a:hover {
+A a:hover {
     font-family: 'Playfair Display', serif;   
-    color: #021B3C
+    color: #0061c8
     text-decoration: none;
-    border-bottom: solid 2px #021B3C;
+    border-bottom: solid 2px #0061c8;
 }
