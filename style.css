@@ -1,0 +1,95 @@
+body {
+    color: #202F51;
+    font-family: "contents", sans;
+    font-family: 'Playfair Display', serif;   
+    font-size: 18px;
+    text-align: left;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+    background-image: url("resources/pw_maze_white.png");
+    background-repeat: repeat;
+}
+
+div#header,
+div#main,
+div#footer {
+    max-width: 920px;
+    min-width: 300px;
+    margin: auto;
+}
+
+div#main {
+    position: relative;
+}
+
+div#header {
+    text-align: right;
+}
+
+div#header h1 {
+}
+
+div#side {
+    float: left;
+    padding: 0px 1% 0px 0px;
+    width: 24%;
+    text-align: left;
+}
+
+div#content {
+    float: right;
+    padding: 0px 0px 0px 1%;
+    width: 74%;
+    text-align: left;
+}
+
+div#footer {
+    clear: both;
+    text-align: center;
+    color: #C0C0B0;
+    padding: 30px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;   
+    color: #021B3C;
+}
+
+h2 {
+    font-family: 'Playfair Display', serif;   
+    color: #021B3C;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;   
+    color: #021B3C;
+}
+
+h4 {
+    font-family: 'Playfair Display', serif;   
+    color: #021B3C;
+}
+
+a:link {
+    font-family: 'Playfair Display', serif;   
+    color: #021B3C;
+    text-decoration: none;
+    border-bottom: solid 1px #021B3C;
+}
+
+/* visited link */
+a:visited {
+    font-family: 'Playfair Display', serif;   
+    color: #021B3C;
+    text-decoration: none;
+    border-bottom: solid 1px #021B3C;
+}
+
+/* mouse over link */
+a:hover {
+    font-family: 'Playfair Display', serif;   
+    color: #021B3C
+    text-decoration: none;
+    border-bottom: solid 2px #021B3C;
+}
