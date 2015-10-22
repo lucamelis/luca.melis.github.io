@@ -39,7 +39,6 @@ body {
     font-family: _rm, serif;   
     font-size: 18px;
     text-align: left;
-/*    max-width: 1000px;*/
     margin: auto;
     margin-top: 20px;
     background-image: url("resources/pw_maze_white.png");
@@ -122,5 +121,5 @@ A a:hover {
     font-family: _rm, serif;   
     color: #0061c8
     text-decoration: none;
-    border-bottom: solid 2px #0061c8;
+    border-bottom: solid 1px #0061c8;
 }
