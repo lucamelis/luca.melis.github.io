@@ -36,73 +36,57 @@
 
 body {
     color: #202F51;
-    font-family: _rm, serif;   
-    font-size: 18px;
+    font-family: _rm;   
+    font-size: 19px;
     text-align: left;
     margin: auto;
-    margin-top: 20px;
     background-image: url("resources/pw_maze_white.png");
     background-repeat: repeat;
-}
-
-li::marker {
-  color: #202F51; 
-}
-
-div#header,
-div#main,
-div#footer {
-    max-width: 50%;
-    min-width: 10%;
-    margin: auto;
-}
-
-div#main {
-    position: relative;
-}
-
-div#header {
-    text-align: right;
-}
-
-div#side {
-    float: left;
-/*    padding: 0px 1% 0px 0px;*/
-    width: 25%;
-    text-align: left;
-}
-
-div#content {
-    float: right;
-/*    padding: 0px 0px 0px 1%;*/
-    width: 75%;
-    text-align: left;
 }
 
 div#footer {
     clear: both;
     text-align: center;
     color: #C0C0B0;
-    padding: 30px;
 }
 
 top {
-    font-family:  _bf, serif;
-    font-size: 38px;
+    font-family:  _bf;
+    font-size: 40px;
+}
+
+subtop {
+	font-family: _rm;
+    font-size: 30px;
+	color: #555;
+	display: block;
 }
 
 section {
-    font-family:  _bf, serif;
-    font-size: 30px;
+    font-family:  _bf;
+    font-size: 28px;
 }
 
-papertitle {
+/*
+conference {
 	font-family: _sf;
-	color: #6b6b6b;
+    font-size: 19px;
+}
+*/
+
+conference, papertitle {
+	font-family: _sf;
+    font-size: 19px;
+/*	color: #6b6b6b;*/
+}
+
+authors {
+	font-family: _it;
+    font-size: 19px;
 }
 
 A a {
-    font-family: _rm, serif;   
+    font-family: _rm;   
     color: #0061c8;
     text-decoration: none;
     border-bottom: solid 1px #0061c8;
