@@ -9,13 +9,11 @@
 @font-face {
 	font-family: _bf;
 	src: url('fonts/cmunbx.ttf') format('truetype');
-	font-weight: bold;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: _sf;
-    font-weight: bold;
 	src: url('fonts/cmunss.ttf') format('truetype');
 }
 
@@ -30,7 +28,6 @@
 @font-face {
 	font-family: _bi;
 	src: url('fonts/cmunbi.ttf') format('truetype');
-	font-weight: bold;
 	font-style: italic;
 }
 
@@ -44,14 +41,13 @@ body {
     background-repeat: repeat;
 }
 
-div#footer {
-    clear: both;
+footer {
     text-align: center;
     color: #C0C0B0;
 }
 
 top {
-    font-family:  _bf;
+    font-family: _bf;
     font-size: 40px;
 }
 
@@ -61,6 +57,11 @@ subtop {
 	color: #555;
 	display: block;
 }
+
+
+hr.gradient { border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); }
+
+/*hr.styled { padding: 0; border: none; border-top: medium double #333; color: #333; text-align: center; } hr.styled:after { content: "§"; display: inline-block; position: relative; top: -0.7em; font-size: 1.5em; padding: 0 0.25em; background-image: url("resources/pw_maze_white.png"); background-repeat: repeat; }*/
 
 section {
     font-family:  _bf;
@@ -74,10 +75,14 @@ conference {
 }
 */
 
-conference, papertitle {
+conference {
 	font-family: _sf;
     font-size: 19px;
-/*	color: #6b6b6b;*/
+}
+
+papertitle {
+	font-family: _sf;
+    font-size: 21px;
 }
 
 authors {
@@ -85,25 +90,20 @@ authors {
     font-size: 19px;
 }
 
-A a {
-    font-family: _rm;   
-    color: #0061c8;
+a {
+/*    color: #0061c8;*/
+    color: rgb(0,120,255);
     text-decoration: none;
-    border-bottom: solid 1px #0061c8;
 }
 
 /* visited link */
-A a:visited {
-    font-family: _rm, serif;   
-    color: #0061c8;
+a:visited {
+    color:rgb(0,120,255);
     text-decoration: none;
-    border-bottom: solid 1px #0061c8;
 }
 
 /* mouse over link */
-A a:hover {
-    font-family: _rm, serif;   
-    color: #0061c8
+a:hover {
+    color: rgb(190,0,0);
     text-decoration: none;
-    border-bottom: solid 1px #0061c8;
 }
