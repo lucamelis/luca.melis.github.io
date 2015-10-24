@@ -13,6 +13,11 @@
 }
 
 @font-face {
+	font-family: _tt;
+	src: url('fonts/cmuntt.ttf') format('truetype');
+}
+
+@font-face {
 	font-family: _sf;
 	src: url('fonts/cmunss.ttf') format('truetype');
 }
@@ -31,6 +36,9 @@
 	font-style: italic;
 }
 
+tt {
+	font-family: _tt;
+}
 
 .container {
     font-size: 19px;
@@ -86,6 +94,14 @@ conference {
 papertitle {
 	font-family: _sf;
     font-size: 21px;
+}
+
+public {
+	color: #59a818;
+}
+
+preprint {
+	color: #c98818;
 }
 
 authors {
