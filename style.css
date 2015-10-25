@@ -45,7 +45,7 @@
 
 
 @font-face {
-	font-family: _it;
+	font-family: _ti;
 	src: url('fonts/cmunti.eot');
 	src: url('fonts/cmunti.eot?#iefix') format('embedded-opentype'),
 		 url('fonts/cmunti.woff') format('woff'),
@@ -54,6 +54,19 @@
 	font-weight: normal;
 	font-style: italic;
 }
+
+@font-face {
+	font-family: _ci;
+	src: url('fonts/cmunci.eot');
+	src: url('fonts/cmunci.eot?#iefix') format('embedded-opentype'),
+		 url('fonts/cmunci.woff') format('woff'),
+		 url('fonts/cmunci.ttf') format('truetype'),
+		 url('fonts/cmunci.svg#cmunci') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+
 
 @font-face {
 	font-family: _sl;
@@ -124,22 +137,27 @@ sect {
     font-size: 1.5em;
 }
 
+/* publications section*/
 papertitle {
 	font-family: _ss;
+    font-size: 1.1em;
+}
+
+authors {
+	font-family: _rm;
     font-size: 1.0em;
 }
 
 conference {
+	font-family: _ci;
+    font-size: 1.0em;
+    font-style: italic;
+}
+
+.paperlink{
 	font-family: _ss;
-    font-size: 1.0em;
+    font-size: 0.9em;
 }
-
-authors {
-	font-family: _it;
-    font-size: 1.0em;
-}
-
-
 public {
 	color: #59a818;
 }
@@ -149,6 +167,7 @@ preprint {
 }
 
 
+/*links*/
 a {
 /*    color: #0061c8;*/
     color: rgb(0,120,255);
