@@ -100,17 +100,29 @@ html {
     height: 100%;
 }
 
+.gutter > [class*='col-'] {
+		padding-top: 0em;
+		padding-right:0.5em;
+    padding-left:0.5em;
+}
+
 .container {
     font-size: 3.2em;
 }
 
-body {    
-    font-family: _rm;   
+.well {
+	 border-radius: 0.5em;
+	 margin-top: 0.5em;
+	 margin-bottom: 0.5em;
+}
+
+body {
+    font-family: _rm;
     font-size: 60.0%;
     color: #202F51;
     text-align: left;
     background-image: url("resources/pw_maze_white.png");
-    min-height: 100%;
+		min-height: 100%;
 }
 
 footer {
@@ -125,7 +137,7 @@ top {
 
 subtop {
 	font-family: _ss;
-    font-size: 1.8em;
+  font-size: 1.8em;
 	color: #555;
 	display: block;
 }
@@ -140,23 +152,23 @@ sect {
 /* publications section*/
 papertitle {
 	font-family: _ss;
-    font-size: 1.1em;
+  font-size: 1.1em;
 }
 
 authors {
 	font-family: _rm;
-    font-size: 1.0em;
+  font-size: 1.0em;
 }
 
 conference {
 	font-family: _ci;
-    font-size: 1.0em;
-    font-style: italic;
+  font-size: 1.0em;
+	font-style: italic;
 }
 
 .paperlink{
 	font-family: _ss;
-    font-size: 0.9em;
+  font-size: 0.9em;
 }
 public {
 	color: #59a818;
@@ -184,4 +196,22 @@ a:visited {
 a:hover {
     color: rgb(190,0,0);
     text-decoration: none;
+}
+
+.custom-counter {
+  list-style-type: none;
+}
+
+.custom-counter li {
+  counter-increment: step-counter;
+	margin: inherit;
+	margin-bottom: 10px;
+}
+
+.custom-counter li::before {
+	content: "[" counter(step-counter) "]";
+	font-family: _ss;
+  margin-right: 5px;
+	font-size: 1.1em;
+  /*font-weight: bold;*/
 }
