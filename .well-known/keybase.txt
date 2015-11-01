@@ -21,6 +21,11 @@ To do so, I am signing this object:
             "uid": "705f738a25e5c1e687be8a231da23d00",
             "username": "lmelis"
         },
+        "revoke": {
+            "sig_ids": [
+                "0f01937d1a618af93b31de2727324df249af2390e29479e28a98e8381a86158b0f"
+            ]
+        },
         "service": {
             "hostname": "lucamelis.github.io",
             "protocol": "https:"
@@ -28,10 +33,10 @@ To do so, I am signing this object:
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1446387420,
+    "ctime": 1446388170,
     "expire_in": 157680000,
-    "prev": "c2ddd69104d95cd0099009c1dc137eaa32e35278a10388e7222674f293c8d459",
-    "seqno": 2,
+    "prev": "cdd6f1f61731bbd2a88c4b6608cb64c2fea05f856338aa778d085d2bfcb79235",
+    "seqno": 3,
     "tag": "signature"
 }
 
@@ -41,29 +46,30 @@ which yields the signature:
 Version: Keybase OpenPGP v2.0.47
 Comment: https://keybase.io/crypto
 
-yMNCAnicrZJ7UFRVHMcXAmo3mZgyywYD7zqQinbfj91hsMEIEYfMUCxy5z7OhQvL
-3uXuXRSRkgxBZSIzgwHG0pTnLBISo4AgxpRBYoG9HAYFDJBGTUMaaWW7l/K//uzM
-nHPm9zvf3+f3mNMT/IjB5FfrC9vYgjSm+/V1V7kNm8nnh/IgThZyIUselAnmL2AX
-gEu1ZUoCZIFgBEZohqUxgecEUkApgOIwRmGApQSBoXiOBRyOISRCAJFmOYYURIwn
-BAqlcIYANENwGAWzUBQkSo40oDgVyaFqWBYHIikSGg+GaQbDaJhBcACTLC2KiEgg
-OpMFJK0FpssuPUIrjmNdYLUkaz7NsM2X9x/6/7lu9zyOggmRwmgWJQDBI1oiigOa
-hSGCdggwrAtdQHGwWUBT27OAXXJB+VGQ5suReKCPVe/j4bubZ+clq9MkNd3N/dOU
-U5FVmZftmiBdVZ0uiw5Qc516xHbA2f5l2TjJIWjD1CJygOKSZAdkQTQlr0o6HMFx
-EqMpHIWjILDDKSnAJukKgiJpWFt6HpCjIXlUEASSQWBcYAhe64FhtM0jAo9gFGBZ
-DAUYgVI0i8AYTQMKRVGSwkWUwXhawAkG0rvLdsiQBdXKZNM0pEtKc7CqWwFQ/vnu
-1ACDn8kQFOivfzKDyRjy8Ot9XhViOD21MuVaaVFQ0vKCk+q7E2Fey+3l0xvHHr9S
-5lk6MVE3cejiqHeXeatauPn1utzM7yard/oSj8Tw50+NP9sbHNw1UuG5HV1GWRdG
-bqnvzzFnbBPej/pq8dEm1+E1JU8hpQVKPIotKbt14W5o8hvrbsRXJpWvHJ1eE7vo
-xM8LrodWBh6+cHLXE63TsRAcnDvneS+vPODp+9VPNsR82Lwt1+9K+OjaZGdK3ZL0
-s83WOw20b4/p+32I0tLF/GINN3/0WgF0r8Z4cKj5bL68qii+1tNu3BEyNveMpXDV
-cGtt/8Wuc6/88Nx4Uscldm9F1XDb29jcn/uWZmKpwh+zNeSLjR3+0cs+7rW+fCQx
-5NbC1rEkS81QOffWssWhsTvt6xeMe/sHzjxmb+1JsGQHW0FcSf5f289V9ySInw0b
-e4uP/pgw1ce767c6sUOndovtvz4w1d9ImZn8pHbk2PVHo4Ic2d+QlRv2tm8aSK5q
-7GzrC2jOmg087ukczVjUkuj58gBHKdlVnR0vGKd2K5UHh84UW703TZcvvemlul+y
-ezdFPBh0tW+J+zYi+vKK2pTZq3G2V5uG7/22x7fu64wZn2y8OmkaMhZKn/qbS2+2
-fbF+YK3F1xkTqQD5/oqABmuq2X//7yWTMy0V6oZr4XdPq4OF5rDiE/3HPzDiEXeK
-RnYdgCPRpnd+IrHB8sBjfwM1jsqG
-=quxQ
+yMOAAnicrZJtUBVVGMcviJAUQpJjDU3EIgFCsGdfz14kYpgSyWwgXwJEPLt79rIB
+d+G+oHCHpuQ1yqQMUmmGQlDMEVRAnFHHgbmaXM2sKRSmyTEogVFHnUGRaOxcym99
+bD/sztn5P7///zzP4w5aYAr06XwUntkLugp8LgzMOE0bhAiPi5INtZwyu6hCPP/B
+RSq2O/ILdZUyUzSgAZQQZFVFVgWVETHD0azIYiSqqiQqMsIyxwIB8FiDSJYEVWMV
+XhUZkZN4DCVeZkUaUfGUplst2FZi060OgkUc1gSNJzyahhLLQloCHKYFBDUNaDzw
+MhEWICksMOzeChJORnacoBvkHznkz8f7D/3/nNs5jxNpXhNZiBge8wogRqKMyYkF
+KnmpNO0V2rHNiooxURcV4yLdTlXGUzZcZhRib1ftuoVEtlPmXIrWaCCxogqQACDS
+JFYmHMwQb5bhVI3hJKQxrERjRuJECTMQSRBDFgIESV4o0xqVR9jEr0xX5uHeHj32
+dipo3j7BojsKnPI/DSuxGQ5DMYqIoMDhKLGbveEc5SXeiq1Yzv+XlS/rVpUMilSU
+YZtdN6yUGRCl4tC9cMBxAgshEOl4Cm8r0W04X/cqeFGANHm8PriMIBVVFchcBCCy
+QJZVBkGocLIg0FCRBU5hNIxIQyEvkMkjJIpQpSFZBllTZFFiWJ7y3q7UalBmlsRE
+FoIk/bMih9OGqcrBgU1+Jp9Ak/9CX+8CmwIXhTxe69LU4Eeb1i7abVp3JLLjtY17
+U0dSbk4kPAgbCh2aDKzsaYjtTbyW3Xz0fJ6i9+5yP/O9fVK/LxxYljXsym08XLvP
+9C0YXvEQ3s0MBu+PufdqP77TeO7FNynbs2fjMvrf8m2rzsja6n7q3HcNw1dcB0xR
+k0bL1U97WiKeSP9hg8386m5LRUOX55DrS7+WnbDzumFxJbYHtL0RE+o67nu8vrf+
+5yp7jTFQU7M6m+pbHGddIAyAHV/Z4i+/7Vnyct3H29uHtq28eCenyXNmlZFwxB19
+Fughz+tzPy2fPtyTeikyPOGD/voP9936+r2sszvgovibp2OfXDx72XTK7x76KEy+
+wg5GTrX+dkJPidjTVe8Slqb1NY0UzCa/3vWQTdp/3T94yaWk/WXTwKp0NuLwycPV
+5bVRa+ZajLHVoXX9WauzxtuCUGnQvdb0gxde+iabmRt1sjmnq+Xfgw5tPrZ9zYmF
+5wPWB41XlF7cVRE35Jn5nHH81Z625dfYpO61y1uro53v3opubgiuOjExY72zYuoT
+y4gpObC7cf0XxWNTdwfztI1RHH8mYEvH5AtLj7X6za46V9140jhpnMo5+qflalOM
+4c4Muz2a1j26rPt++mYqVxiOSaydiSijH9DJGwqnXf5plhS/jIFrxbNgYvyzkJ3R
+uzqqbnDpsc91hf/S98rKprrbT2fvufHHiOfgOlfz3yJC2Ps=
+=30n/
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
@@ -72,4 +78,3 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/lmelis
 
 ==================================================================
-
