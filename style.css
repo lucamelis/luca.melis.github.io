@@ -95,58 +95,60 @@ tt {
 }
 
 html {
-    margin:0;
-    padding:0;
-    height: 100%;
+  margin:0;
+  padding:0;
+  height: 100%;
 }
 
 .gutter > [class*='col-'] {
-		padding-top: 0em;
-		padding-right:0.5em;
-    padding-left:0.5em;
+	padding-top: 0em;
+	padding-right:0.5em;
+  padding-left:0.5em;
 }
 
 .container {
-    font-size: 3.2em;
+  font-size: 3.2em;
 }
 
 .well {
-	 border-radius: 0.5em;
-	 margin-top: 0.5em;
-	 margin-bottom: 0.5em;
+	border-radius: 0.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
 }
 
 body {
-    font-family: _rm;
-    font-size: 60.0%;
-    color: #202F51;
-    text-align: left;
-    background-image: url("resources/pw_maze_white.png");
-		min-height: 100%;
+	font-family: _rm;
+	font-size: 60.0%;
+	color: #202F51;
+	text-align: left;
+	background-image: url("resources/pw_maze_white.png");
+	min-height: 100%;
 }
 
 footer {
-    text-align: center;
-    color: #C0C0B0;
+	text-align: center;
+	color: #C0C0B0;
 }
 
 top {
-    font-family: _rm;
-    font-size: 2.3em;
+  font-family: _rm;
+  font-size: 2.3em;
+	margin-left:0.5em;
 }
 
 subtop {
 	font-family: _ss;
   font-size: 1.8em;
 	color: #555;
-	display: block;
+	margin-left:1.5em;
+	/*display: block;*/
 }
 
 hr.gradient { border: 0; height: 1px; background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0)); }
 
 sect {
-    font-family: _bf;
-    font-size: 1.5em;
+  font-family: _bf;
+  font-size: 1.5em;
 }
 
 /* publications section*/
@@ -182,20 +184,20 @@ preprint {
 /*links*/
 a {
 /*    color: #0061c8;*/
-    color: rgb(0,120,255);
-    text-decoration: none;
+  color: rgb(0,120,255);
+  text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color:rgb(0,120,255);
-    text-decoration: none;
+  color:rgb(0,120,255);
+  text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-    color: rgb(190,0,0);
-    text-decoration: none;
+  color: rgb(190,0,0);
+  text-decoration: none;
 }
 
 .custom-counter {
@@ -214,4 +216,10 @@ a:hover {
   margin-right: 5px;
 	font-size: 1.1em;
   /*font-weight: bold;*/
+}
+
+.img-responsive{
+    width:100%;
+    max-width:250;
+		/*max-height:auto;*/
 }
