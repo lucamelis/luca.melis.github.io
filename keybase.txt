@@ -6,70 +6,58 @@ I hereby claim:
 
   * I am an admin of https://lucamelis.github.io
   * I am lmelis (https://keybase.io/lmelis) on keybase.
-  * I have a public key with fingerprint A4EF 6F5D 2700 8933 8091  4E06 A8FF 1F51 B431 AE68
+  * I have a public key with fingerprint 9FAB B74E 4BFD FA0F 3B63  AD91 00F7 52A9 E397 A83B
 
 To do so, I am signing this object:
 
 {
-    "body": {
-        "key": {
-            "eldest_kid": "010189a83dcbd6d27e240373ea7dd97cbaeb431615ef8ab96df3c5d727495e895b370a",
-            "fingerprint": "a4ef6f5d2700893380914e06a8ff1f51b431ae68",
-            "host": "keybase.io",
-            "key_id": "a8ff1f51b431ae68",
-            "kid": "010189a83dcbd6d27e240373ea7dd97cbaeb431615ef8ab96df3c5d727495e895b370a",
-            "uid": "705f738a25e5c1e687be8a231da23d00",
-            "username": "lmelis"
-        },
-        "revoke": {
-            "sig_ids": [
-                "0f01937d1a618af93b31de2727324df249af2390e29479e28a98e8381a86158b0f"
-            ]
-        },
-        "service": {
-            "hostname": "lucamelis.github.io",
-            "protocol": "https:"
-        },
-        "type": "web_service_binding",
-        "version": 1
+  "body": {
+    "key": {
+      "eldest_kid": "01012a72e2f75fbddbea7eec144e8ca1e780d94d514a12ac75587738acc7f6027c1e0a",
+      "fingerprint": "9fabb74e4bfdfa0f3b63ad9100f752a9e397a83b",
+      "host": "keybase.io",
+      "key_id": "00f752a9e397a83b",
+      "kid": "01012a72e2f75fbddbea7eec144e8ca1e780d94d514a12ac75587738acc7f6027c1e0a",
+      "uid": "705f738a25e5c1e687be8a231da23d00",
+      "username": "lmelis"
     },
-    "ctime": 1446388170,
-    "expire_in": 157680000,
-    "prev": "cdd6f1f61731bbd2a88c4b6608cb64c2fea05f856338aa778d085d2bfcb79235",
-    "seqno": 3,
-    "tag": "signature"
+    "service": {
+      "hostname": "lucamelis.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1519860343,
+  "expire_in": 157680000,
+  "prev": "7611a20c47ec3f99525c71a80b0ddeed36eed91a17d9d36850d92d722ab16aa1",
+  "seqno": 10,
+  "tag": "signature"
 }
 
 which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
-Version: Keybase OpenPGP v2.0.47
+Version: Keybase OpenPGP v2.0.76
 Comment: https://keybase.io/crypto
 
-yMOAAnicrZJtUBVVGMcviJAUQpJjDU3EIgFCsGdfz14kYpgSyWwgXwJEPLt79rIB
-d+G+oHCHpuQ1yqQMUmmGQlDMEVRAnFHHgbmaXM2sKRSmyTEogVFHnUGRaOxcym99
-bD/sztn5P7///zzP4w5aYAr06XwUntkLugp8LgzMOE0bhAiPi5INtZwyu6hCPP/B
-RSq2O/ILdZUyUzSgAZQQZFVFVgWVETHD0azIYiSqqiQqMsIyxwIB8FiDSJYEVWMV
-XhUZkZN4DCVeZkUaUfGUplst2FZi060OgkUc1gSNJzyahhLLQloCHKYFBDUNaDzw
-MhEWICksMOzeChJORnacoBvkHznkz8f7D/3/nNs5jxNpXhNZiBge8wogRqKMyYkF
-KnmpNO0V2rHNiooxURcV4yLdTlXGUzZcZhRib1ftuoVEtlPmXIrWaCCxogqQACDS
-JFYmHMwQb5bhVI3hJKQxrERjRuJECTMQSRBDFgIESV4o0xqVR9jEr0xX5uHeHj32
-dipo3j7BojsKnPI/DSuxGQ5DMYqIoMDhKLGbveEc5SXeiq1Yzv+XlS/rVpUMilSU
-YZtdN6yUGRCl4tC9cMBxAgshEOl4Cm8r0W04X/cqeFGANHm8PriMIBVVFchcBCCy
-QJZVBkGocLIg0FCRBU5hNIxIQyEvkMkjJIpQpSFZBllTZFFiWJ7y3q7UalBmlsRE
-FoIk/bMih9OGqcrBgU1+Jp9Ak/9CX+8CmwIXhTxe69LU4Eeb1i7abVp3JLLjtY17
-U0dSbk4kPAgbCh2aDKzsaYjtTbyW3Xz0fJ6i9+5yP/O9fVK/LxxYljXsym08XLvP
-9C0YXvEQ3s0MBu+PufdqP77TeO7FNynbs2fjMvrf8m2rzsja6n7q3HcNw1dcB0xR
-k0bL1U97WiKeSP9hg8386m5LRUOX55DrS7+WnbDzumFxJbYHtL0RE+o67nu8vrf+
-5yp7jTFQU7M6m+pbHGddIAyAHV/Z4i+/7Vnyct3H29uHtq28eCenyXNmlZFwxB19
-Fughz+tzPy2fPtyTeikyPOGD/voP9936+r2sszvgovibp2OfXDx72XTK7x76KEy+
-wg5GTrX+dkJPidjTVe8Slqb1NY0UzCa/3vWQTdp/3T94yaWk/WXTwKp0NuLwycPV
-5bVRa+ZajLHVoXX9WauzxtuCUGnQvdb0gxde+iabmRt1sjmnq+Xfgw5tPrZ9zYmF
-5wPWB41XlF7cVRE35Jn5nHH81Z625dfYpO61y1uro53v3opubgiuOjExY72zYuoT
-y4gpObC7cf0XxWNTdwfztI1RHH8mYEvH5AtLj7X6za46V9140jhpnMo5+qflalOM
-4c4Muz2a1j26rPt++mYqVxiOSaydiSijH9DJGwqnXf5plhS/jIFrxbNgYvyzkJ3R
-uzqqbnDpsc91hf/S98rKprrbT2fvufHHiOfgOlfz3yJC2Ps=
-=30n/
+yMIrAnicrVJbSBRRGN61C7pgCJJ2Q3OC6GJ2zszOnJlFoyK6EQaB3XU7M+eMO+26
+s+7MmmWagnZZsYJoo8iCgg2WikofIgszgi5WRoZRFPRSVtZDoCbSQ2esnnrtPPyH
+//+/7/sv/PczJ7k87rEiz6pNnZOmunt72mOu7ad8e+o41SR7OV8dF6QTHw0Ratn+
+oEE4HwcggDxGPOV1JOoqISrFiFINer1U1jCkSAZE8RIRejEDakgUZYQEGWsa0iXA
+Iw1SgLlCTjfClTQaiRphm8kqOlZV5KVeVSc6BrqgSgImCgSAleGxQgUFYVlQGTFg
+Wg6DNadiixYZJosxx/+7vX/x/7nv2IQcAqLuZHmRiiwjyUilzBMgYYYA4AAtGg3j
+KsrQoSoaMiyuvpBjsRpDo85anTn+5mManoAUVRp2IKb+HioSNW1TM0MMELDtiOVz
+BOy9EYexh6r+P1p+1QgTtkzGqKFRyzDDnA8ypGYbjjgUoSJLQPAKhRytjRhR6jcc
+hIgkGbDn1KE1zkgShJgHmhdRTdAVReRFDUEsAxUQQikRJGYUiCEiCnNkke2LJ4jn
+sQoljCHnTFcdNpk2E7VxJdO0jMowtmNRytXfu7tzssvtcU2dksaurNblycj6e3sr
++tJdl+s3tOxa/PTtuW9pA/NvlC9ok7/nbVqYeEaG0h9n8h0vtmUXNG6+9GrZ6Mk5
+1+Kth5/E+/3ddx4cop0j6suGxNa5HT+b38z6kjtwon1J/7pUBSl7PXQxNK/vQslg
+6lh+1dpHYrBG3teTGRhf3736/NmKHctvhuMFizY2lZ7efOB57GPb5/zWT53jR0ut
+pJmY9u52b0cw9W7GpavJwZWD7R8S2ZkHrh6ZfvDZeyv+ZfbXdSVHxvYHipM/PEvL
+Z7Z0NYwNNx6X3l+p3vXmTFNhTll2c+7X11l0+NvTR3WwdkPe407wfcUWuCY5cqt6
+YHHjftdozqHdxRXujEXdQ6CrAaYemonrvwC7BkZY
+=cKCS
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
@@ -78,4 +66,3 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/lmelis
 
 ==================================================================
-
